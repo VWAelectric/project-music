@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-    margin-top: -300px;
+    margin-top: 450px;
 }
 
 nav ul {
@@ -41,4 +41,17 @@ nav ul li a {
     margin-right: 30px;
     text-decoration: none;
     color: black;
+}
+
+.my-dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+
+.show {
+    display: block;
 }
