@@ -158,49 +158,14 @@ nav ul li a:hover {
 
 }
 
-.curses-container {
-    max-width: 1000px;
-    display: block;
-    margin: 0px auto;
-}
-
-.content-cursos {
-    display: flex;
-
-}
-
-h3 {
-    padding: 20px;
-}
-
-.content-cursos p {
-    text-align: center;
-    text-align: justify;
-    line-height: 24px;
-    margin: 40px 0px;
-}
-
-.content-cursos img {
-    
-    margin-bottom: 20px;
-    border-radius: 20px;
+.curses-container{
+    height: 800px;
 }
 
 .container-instruments {
     margin: 15px 0px;
-    /* display: flex; */
+   /* display: flex; */
     gap: 20px;
     justify-content: center;
-}
-
-.gallery-container {
-   height: 800px;
-   display: block;
-   text-align: center; 
    
-}
-
-.gallery-content img{
-   border-radius: 20px;
-   margin-bottom: 20px;
 }

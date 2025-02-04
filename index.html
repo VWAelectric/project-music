@@ -12,19 +12,19 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
 
-            <li class="my-dropdown dropdown"><a href="#">Cursos</a>
+            <li class="my-dropdown dropdown"><a href="#cursos">Cursos</a>
                 <ul class="dropdown-content">
-                    <a href="#">♪Piano♪ </a>
-                    <a href="#">♪Baixo♪ </a>
-                    <a href="#">♪Violão♪ </a>
-                    <a href="#">♪Bateria♪ </a>
-                    <a href="#">♪Guitarra♪</a>
+                    <a href="#instrumentos">♪Piano♪ </a>
+                    <a href="#baixo">♪Baixo♪ </a>
+                    <a href="#violao">♪Violão♪ </a>
+                    <a href="#bateria">♪Bateria♪ </a>
+                    <a href="#guitarra">♪Guitarra♪</a>
                 </ul>
             </li>
-            <li><a href="#">Galeria de Fotos</a></li>
+            <li><a href="#gallery">Galeria de Fotos</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
 
@@ -43,19 +43,154 @@
     </header>
 
     <main>
-        <section class="nossos-cursos">
+        <section class="nossos-cursos" id="cursos">
             <h2>Nossos Cursos</h2>
 
             <div class="slideshow">
                 <div class="slider">
                     <img src="./img/drums1.jpg" alt="Aluno em aula de bateria" id="slide1">
-                    <img src="./img/contrabaixo1.jpg" alt="Aluno em aula de contrabaixo" id="slide2">
-                    <img src="./img/banner1.jpg" alt="Foto de um piano com uma partitura" id="slide3">
+                    <img src="./img/contrabaixo2.jpg" alt="Aluno em aula de contrabaixo" id="slide2">
+                    <img src="./img/piano1.jpg" alt="Foto de um piano com uma partitura" id="slide3">
                     <img src="./img/acustic-guitar1.jpg" alt="Aluno em aula de violão" id="slide4">
                     <img src="./img/guitar1.jpg" alt="Aluno em aula de guitarra" id="slide5">
                 </div>
             </div>
         </section>
+        <hr>
+        <section class="sobre-nos" id="sobre">
+            <h2 class="zoom-text">Sobre Nós</h2>
+
+            <div class="image-sobre">
+                <img src="./img/Designer-tito.jpeg" alt="Imagem ilustrada das letras do nome da escola " width="200px">
+                <img src="./img/Designer-tito0.jpeg" alt="Imagem ilustrada de aluno em uma aula de violão "
+                    width="200px">
+                <img src="./img/Designer-tito1.jpeg" alt="Imagem ilustrada de aluno em uma aula de violão "
+                    width="200px">
+                <img src="./img/Designer-tito2.jpeg" alt="Imagem ilustrada de aluno em uma aula de violão "
+                    width="200px">
+            </div>
+
+            <div>
+                <p class="text-sobre">
+                    Fundada em 1992, a Tito Music School nasceu do sonho de um grupo de músicos apaixonados por
+                    compartilhar seu conhecimento e amor pela música. Localizada no coração da cidade, a escola
+                    rapidamente se destacou pela qualidade de seu ensino e pela dedicação de seus professores.
+
+                    Ao longo dos anos, a Tito Music School desenvolveu um currículo abrangente que abrange desde a
+                    teoria musical até a prática instrumental e vocal. Com aulas personalizadas e um ambiente acolhedor,
+                    a escola se tornou um ponto de referência para jovens talentos que desejam seguir carreira na
+                    música.
+
+                    A Tito Music School não apenas ensina música, mas também prepara seus alunos para o mercado
+                    profissional. Com parcerias com estúdios de gravação, produtores e eventos musicais, a escola
+                    oferece oportunidades únicas para que seus alunos ganhem experiência prática e construam uma rede de
+                    contatos valiosa.
+
+                    Hoje, a Tito Music School é reconhecida por formar alguns dos melhores músicos do país. Seus
+                    ex-alunos ocupam posições de destaque em orquestras, bandas e como artistas solo, levando o nome da
+                    escola a palcos nacionais e internacionais.
+
+                    Com uma história de sucesso e um compromisso contínuo com a excelência, a Tito Music School continua
+                    a inspirar e moldar as futuras gerações de músicos.
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="curses-container" id="instrumentos">
+            <h2>Aulas de Instrumentos</h2>
+
+            <div class="container-instruments">
+
+                <div class="content-cursos">
+                    <img src="./img/piano1.jpg" alt="" width="320px">
+                    <h3>Piano</h3>
+                    <p>
+                        O curso de piano da Tito Music School é projetado para alunos de todas as idades e níveis de
+                        habilidade. As aulas são ministradas por instrutores experientes e cobrem uma ampla gama de
+                        estilos musicais, incluindo clássico, jazz, pop e R&B.
+
+                        Os alunos aprendem técnicas de piano, leitura de partituras, teoria musical e improvisação. As
+                        aulas podem ser presenciais ou virtuais, oferecendo flexibilidade para se adaptar às
+                        necessidades dos alunos. Além disso, a escola incentiva a prática regular e oferece
+                        oportunidades para apresentações e recitais.
+                    </p>
+                </div>
+
+                <div class="content-cursos" id="baixo">
+                    <img src="./img/contrabaixo2.jpg" alt="" width="320px">
+                    <h3>Baixo</h3>
+                    <p>
+                        O curso de contrabaixo da Tito Music School é ideal para alunos de todos os níveis, desde
+                        iniciantes até avançados. As aulas são conduzidas por instrutores qualificados que ensinam
+                        técnicas essenciais, como pizzicato, slap, e uso de palheta.
+
+                        Os alunos aprendem a ler partituras, cifras e tablaturas, além de teoria musical, harmonia e
+                        improvisação. O curso abrange diversos estilos musicais, incluindo rock, jazz, funk e música
+                        brasileira. As aulas podem ser presenciais ou online, proporcionando flexibilidade para os
+                        alunos.
+                    </p>
+                </div>
+
+                <div class="content-cursos" id="violao">
+                    <img src="./img/acustic-guitar2.jpg" alt="" width="320px">
+                    <h3>Violão</h3>
+                    <p>
+                        O curso de violão da Tito Music School é perfeito para alunos de todos os níveis, desde
+                        iniciantes até avançados. As aulas são ministradas por instrutores experientes que ensinam
+                        técnicas fundamentais, como dedilhado, acordes, ritmos e leitura de partituras.
+
+                        Os alunos aprendem teoria musical, harmonia e improvisação, além de explorar uma variedade de
+                        estilos musicais, incluindo MPB, rock, pop e clássico. As aulas podem ser presenciais ou online,
+                        oferecendo flexibilidade para se adaptar à rotina dos alunos.
+                    </p>
+                </div>
+
+                <div class="content-cursos" id="bateria">
+                    <img src="./img/galeria-drums3.jpg" alt="" width="320px">
+                    <h3>Bateria</h3>
+                    <p>
+                        O curso de bateria da Tito Music School é projetado para alunos de todos os níveis, desde
+                        iniciantes até avançados. As aulas são ministradas por instrutores experientes que ensinam
+                        técnicas essenciais, como postura, uso das baquetas, rudimentos, ritmos básicos e avançados,
+                        além de exercícios de coordenação e independência.
+
+                        Os alunos aprendem a ler partituras rítmicas e teoria musical, explorando uma variedade de
+                        estilos musicais, incluindo rock, jazz, funk e música brasileira. As aulas podem ser presenciais
+                        ou online, oferecendo flexibilidade para se adaptar à rotina dos alunos.
+                    </p>
+                </div>
+
+                <div class="content-cursos" id="guitarra">
+                    <img src="./img/guitar1.jpg" alt="" width="320px">
+                    <h3>Guitarra</h3>
+                    <p>
+                        O curso de guitarra da Tito Music School é ideal para alunos de todos os níveis, desde
+                        iniciantes até avançados. As aulas são ministradas por instrutores qualificados que ensinam
+                        técnicas essenciais, como acordes, escalas, solos e leitura de tablaturas.
+
+                        Os alunos aprendem teoria musical, harmonia e improvisação, explorando uma variedade de estilos
+                        musicais, incluindo rock, blues, jazz e música brasileira. As aulas podem ser presenciais ou
+                        online, oferecendo flexibilidade para se adaptar à rotina dos alunos.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="gallery-container" id="gallery">
+            <h2>Galeria de Fotos</h2>
+
+            <div class="gallery-content">
+                <img src="img/banner-drums1.jpg" alt="" id="slide6" width="800px">
+                <img src="img/galeria-banda1.jpg" alt="" id="slide7" width="800px">
+                <img src="img/galeria-drums1.jpg" alt="" id="slide8" width="800px">
+                <img src="img/galeria-guitar1.jpg" alt="" id="slid9" width="800px">
+                <img src="img/galeria-orquestra.jpg" alt="" id="slide10" width="800px">
+            </div>
+        </section>
+    
     </main>
 
     <script src="./js/script.js"></script>
