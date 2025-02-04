@@ -195,12 +195,10 @@ h3 {
 
 .gallery-container {
    height: 800px;
-   display: block;
-   text-align: center; 
-   
 }
 
 .gallery-content img{
    border-radius: 20px;
    margin-bottom: 20px;
-}
+   display:block;
+   margin: 20px auto;
