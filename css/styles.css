@@ -151,6 +151,7 @@ nav ul li a:hover {
 
 .image-sobre img {
     margin: 20px 0px;
+    border-radius: 20px;
 }
 
 .small {
@@ -202,4 +203,12 @@ h3 {
    margin-bottom: 20px;
    display:block;
    margin: 20px auto;
+}
+
+.rotating {
+    transform: rotate(45deg);
+}
+
+.rota{
+    transform: rotate(-45deg);
 }

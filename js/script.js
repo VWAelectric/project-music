@@ -3,8 +3,11 @@ const dropdownContent = document.querySelector('.dropdown-content')
 const box = document.querySelector('.slider')
 const zoom = document.querySelector('.zoom-text')
 
-
 let conter = 0;
+
+function rotacionar() {
+    angle += 45;
+}
 
 function slider() {
     conter++;
@@ -35,7 +38,7 @@ zoom.classList.remove('small')
 })
 
 function typeWrite(elemento){
-    const textoArray = elemento.innerHTML.split('');
+    const textoArray = elemento.innerHTML.split('')
     elemento.innerHTML = ' ';
     textoArray.forEach(function(letra, i){   
       
@@ -45,8 +48,24 @@ function typeWrite(elemento){
 
   });
 }
-const titulo = document.querySelector('.text-sobre');
+const titulo = document.querySelector('.text-sobre')
 typeWrite(titulo);
 
+//Rotate com a class css
 
+const img = document.getElementById('evolution1')
+const image = document.getElementById('evolution2')
 
+img.addEventListener('mouseenter', () => {
+    img.classList.add('rotating')
+})
+img.addEventListener('mouseleave', () => {
+    img.classList.remove('rotating')
+})
+
+image.addEventListener('mouseover', () => {
+    img.classList.add('rota')
+})
+image.addEventListener('mouseout', () => {
+    img.classList.remove('rota')
+})
