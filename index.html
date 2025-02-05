@@ -70,12 +70,6 @@
                     width="200px">
             </div>
 
-        <section>
-            
-        </section>
-
-        </section>
-
             <div>
                 <p class="text-sobre">
                     Fundada em 1992, a Tito Music School nasceu do sonho de um grupo de músicos apaixonados por
@@ -194,64 +188,12 @@
                 <img src="img/galeria-drums1.jpg" alt="" id="slide8" width="800px">
                 <img src="img/galeria-guitar1.jpg" alt="" id="slid9" width="800px">
                 <img src="img/galeria-orquestra.jpg" alt="" id="slide10" width="800px">
-
-                <!-- lider de Depoimentos --> 
-                <section id="depoimentos">
-                    <div class="wrapper">
-                        <h2>Depoimentos de Alunos</h2>
-                        <div class="slider">
-                            <div class="slides_depoimentos">
-                                <div class="slide_depoimentos">  "1 A Escola de Música Lapa transformou minha vida musical!" – João Silva</div>
-                                <div class="slide_depoimentos">  "2 A Escola de Música Lapa transformou minha vida musical!" – João Silva</div>
-                                <div class="slide_depoimentos">  "3 A Escola de Música Lapa transformou minha vida musical!" – João Silva</div>
-                                <div class="slide_depoimentos">  "4 A Escola de Música Lapa transformou minha vida musical!" – João Silva</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
             </div>
         </section>
-
+    
     </main>
 
-    <footer>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#sobre">Sobre Nós</a></li>
-
-            <li class="my-dropdown dropdown"><a href="#cursos">Cursos</a>
-                <ul class="dropdown-content">
-                    <a href="#instrumentos">♪Piano♪ </a>
-                    <a href="#baixo">♪Baixo♪ </a>
-                    <a href="#violao">♪Violão♪ </a>
-                    <a href="#bateria">♪Bateria♪ </a>
-                    <a href="#guitarra">♪Guitarra♪</a>
-                </ul>
-            </li>
-            <li><a href="#gallery">Galeria de Fotos</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-
-        <div class="contato">
-            <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
-        </div>
-    </footer>
-
-
     <script src="./js/script.js"></script>
-    <script>
-    // Slider slides_depoimentos
-        const slides_depoimentos = document.querySelector(".slides_depoimentos");
-        let index = 0;
-
-        function mudarSlide_depoimentos() {
-            index = (index + 1) % 4; // calcula o total de 3 slides
-            slides_depoimentos.style.transform = `translateX(-${index * 100}%)`;
-        }
-        setInterval(mudarSlide_depoimentos, 4500);
-
-    </script>
 </body>
 
 </html>
