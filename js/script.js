@@ -64,8 +64,8 @@ img.addEventListener('mouseleave', () => {
 })
 
 image.addEventListener('mouseover', () => {
-    img.classList.add('rota')
+    image.classList.add('rota')
 })
 image.addEventListener('mouseout', () => {
-    img.classList.remove('rota')
+    image.classList.remove('rota')
 })
