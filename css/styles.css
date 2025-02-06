@@ -154,8 +154,8 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-.small {
-    zoom: 150%;
+.zoom-in {
+    transform: scaleY(150%);
 
 }
 
